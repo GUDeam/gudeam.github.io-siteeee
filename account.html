@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Profile</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230117181220">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="menu">
+		<div class="menu__top">
+			<div class="page__block">
+				<div class="page__flex">
+					<a href="/" class="page__logo"><img src="img/logo.svg" alt="Logotype" class="page__logo-img"></a>
+					<img src="img/close.svg" alt="svg" onclick="menu();" class="close">
+				</div>
+				<p class="page__name">Anastasiia Melnyk</p>
+				<p class="page__balance">O <span>USTD</span></p>
+				<div class="page__balance-bonus">
+					<div class="page__balance-item">
+						<p class="page__balance-price">0</p>
+						<p class="page__balance-val">Withdrawable</p>
+					</div>
+					<div class="page__balance-item">
+						<p class="page__balance-price">0</p>
+						<p class="page__balance-val">Locked by bonus</p>
+					</div>
+				</div>
+				<a href="#" class="page__deposit">Deposit</a>
+			</div>
+			<nav>
+				<ul class="page__menu">
+					<li class="page__menu-item"><a href="#" class="page__menu-link page__menu-active"><img src="img/profile__1.svg" alt="Profile" class="page__menu-img"> Profile</a></li>
+					<li class="page__menu-item"><a href="#" class="page__menu-link"><img src="img/profile__2.svg" alt="Profile" class="page__menu-img"> Wallet</a></li>
+					<li class="page__menu-item"><a href="#" class="page__menu-link"><img src="img/profile__3.svg" alt="Profile" class="page__menu-img"> Game history</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="menu__bottom">
+			<a href="#" class="menu__btn">Back to Casino</a>
+			<a href="#" class="menu__btn">Logout</a>
+		</div>
+	</div>
+	<div class="wrapper">
+		<main class="page" data-sticky>
+			<div class="page__sidebar" data-sticky-item>
+				<div class="page__block">
+					<a href="/" class="page__logo"><img src="img/logo.svg" alt="Logotype" class="page__logo-img"></a>
+					<p class="page__name">Anastasiia Melnyk</p>
+					<p class="page__balance">O <span>USTD</span></p>
+					<div class="page__balance-bonus">
+						<div class="page__balance-item">
+							<p class="page__balance-price">0</p>
+							<p class="page__balance-val">Withdrawable</p>
+						</div>
+						<div class="page__balance-item">
+							<p class="page__balance-price">0</p>
+							<p class="page__balance-val">Locked by bonus</p>
+						</div>
+					</div>
+					<a href="#" class="page__deposit">Deposit</a>
+				</div>
+				<nav>
+					<ul class="page__menu">
+						<li class="page__menu-item"><a href="#" class="page__menu-link page__menu-active"><img src="img/profile__1.svg" alt="Profile" class="page__menu-img"> Profile</a></li>
+						<li class="page__menu-item"><a href="#" class="page__menu-link"><img src="img/profile__2.svg" alt="Profile" class="page__menu-img"> Wallet</a></li>
+						<li class="page__menu-item"><a href="#" class="page__menu-link"><img src="img/profile__3.svg" alt="Profile" class="page__menu-img"> Game history</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="page__content">
+				<div class="page__header">
+					<div class="page__header-title">
+						<div class="page__header-title"><a href="/" class="page__hidelogo"><img src="img/logo.svg" alt="Logotype" class="page__logo-img"></a>Account</div>
+					</div>
+					<div class="page__header-block">
+
+						<a href="#" class="page__header-btn">Back to Casino 🎉</a>
+						<a href="#" class="page__header-mess"><img src="img/mess.svg" alt="Message" class="page__header-mess-img"></a>
+						<a href="#" class="page__header-btn"><img src="img/logout.svg" alt="Logout" class="page__header-logout"> Logout</a>
+						<img src="img/burger.svg" alt="Menu" onclick="menu();" class="page__header-burger">
+					</div>
+				</div>
+				<nav>
+					<ul class="page__nav">
+						<li class="page__nav-item"><a href="#" class="page__nav-link page__nav-active">General</a></li>
+						<li class="page__nav-item"><a href="#" class="page__nav-link">Verification</a></li>
+						<li class="page__nav-item"><a href="#" class="page__nav-link">Security</a></li>
+					</ul>
+				</nav>
+				<div class="page__main">
+					<div class="page__main-content">
+						<div class="page__main-title">Personal Information ✈</div>
+						<form action="" class="page__form">
+							<div class="page__form-item">
+								<div class="page__form-group">
+									<label for="email" class="page__label">Email</label>
+									<input type="email" name="email" id="email" class="page__form-inp" placeholder="email@gmail.com">
+								</div>
+								<div class="page__form-group">
+									<label for="first" class="page__label">First name</label>
+									<input type="text" name="first" id="first" class="page__form-inp" placeholder="Anastasiia">
+								</div>
+								<div class="page__form-group">
+									<label for="last" class="page__label">Last name</label>
+									<input type="text" name="last" id="last" class="page__form-inp" placeholder="Anastasiia">
+								</div>
+								<div class="page__form-group">
+									<label for="date" class="page__label">Date of Birth</label>
+									<input type="text" data-datepicker name="date" id="date" class="page__form-inp" placeholder="">
+								</div>
+								<div class="page__form-group">
+									<label for="gender" class="page__label">Gender</label>
+									<select name="gender" id="gender" class="page__form-inp" data-class-modif="page__form-inp">
+										<option value="1" selected>Male</option>
+										<option value="2">Female</option>
+										<option value="3">Other</option>
+									</select>
+								</div>
+								<input type="submit" value="Save changes" class="page__form-btn" data-da=".data-da, 992, 1">
+							</div>
+							<div class="page__form-item">
+								<div class="page__form-group">
+									<label for="country" class="page__label">Country</label>
+									<input type="text" name="country" id="country" class="page__form-inp" placeholder="Ukraine">
+								</div>
+								<div class="page__form-group">
+									<label for="city" class="page__label">City</label>
+									<input type="text" name="city" id="city" class="page__form-inp" placeholder="Kharkiv">
+								</div>
+								<div class="page__form-group">
+									<label for="adreess" class="page__label">Adreess</label>
+									<input type="text" name="adreess" id="adreess" class="page__form-inp" placeholder="Anastasiia">
+								</div>
+								<div class="page__form-group">
+									<label for="portal" class="page__label">Portal Code</label>
+									<input type="text" name="portal" id="portal" class="page__form-inp" placeholder="">
+								</div>
+								<div class="page__form-group">
+									<label for="phone" class="page__label">Mobile Phone</label>
+									<input type="tel" name="phone" id="phone" class="page__form-inp" placeholder="+380">
+								</div>
+							</div>
+							<div class="page__form-item">
+								<div class="page__form-sub">Subscriptions</div>
+								<div class="page__form-group gr">
+									<p class="page__check">Send promos by e-mail</p>
+									<input type="checkbox" checked id="highload1" name="highload1">
+									<label for="highload1" class="lb1"></label>
+								</div>
+								<div class="page__form-group gr">
+									<p class="page__check">Send promos by SMS</p>
+									<input type="checkbox" checked id="highload2" name="highload2">
+									<label for="highload2" class="lb2"></label>
+								</div>
+							</div>
+							<div class="data-da"></div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20230117181220"></script>
+	<script>
+		function getTimeRemaining(endtime) {
+			var t = Date.parse(endtime) - Date.parse(new Date());
+			var seconds = Math.floor((t / 1000) % 60);
+			var minutes = Math.floor((t / 1000 / 60) % 60);
+			var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+			var days = Math.floor(t / (1000 * 60 * 60 * 24));
+			return {
+				'total': t,
+				'days': days,
+				'hours': hours,
+				'minutes': minutes,
+				'seconds': seconds
+			};
+		}
+
+		function initializeClock(id, endtime) {
+			var clock = document.getElementById(id);
+			var daysSpan = clock.querySelector('.days');
+			var hoursSpan = clock.querySelector('.hours');
+			var minutesSpan = clock.querySelector('.minutes');
+			var secondsSpan = clock.querySelector('.seconds');
+
+			function updateClock() {
+				var t = getTimeRemaining(endtime);
+
+				daysSpan.innerHTML = t.days;
+				hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+				minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+				secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+				if (t.total <= 0) {
+					clearInterval(timeinterval);
+				}
+			}
+
+			updateClock();
+			var timeinterval = setInterval(updateClock, 1000);
+		}
+
+		var deadline = new Date(Date.parse(new Date()) + 4 * 24 * 60 * 60 * 1000); // Чисор "4" это количество дней до окончания работы таймера. Можно изменять
+		// var deadline = '2015-12-31';
+		initializeClock('countdown', deadline);
+
+		function menu() {
+			document.querySelector('.menu').classList.toggle('_active');
+		}
+	</script>
+</body>
+
+</html>
